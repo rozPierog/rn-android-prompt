@@ -5,12 +5,10 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mikehardy/react-native-update-apk.git"
+    "url": "git+https://github.com/rozPierog/rn-android-prompt.git"
   },
-  "scripts": {
-  },
-  "keywords": [
-  ],
+  "scripts": {},
+  "keywords": [],
   "author": "Leon Omelan (https://github.com/rozpierog)",
   "license": "MIT",
   "dependencies": {
@@ -18,16 +16,14 @@
     "react-native-fs": "^2.13.3"
   },
   "devDependencies": {
-    "@react-native-community/cli": "^1.8.0",
-    "prettier": "^1.17.1"
+    "@react-native-community/cli": "^1.8.0"
   },
   "nativePackage": true,
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "homepage": "https://github.com/mikehardy/react-native-update-apk",
-  "readmeFilename": "README.md",
+  "homepage": "https://github.com/rozPierog/rn-android-prompt",
   "bugs": {
-    "url": "https://github.com/mikehardy/react-native-update-apk/issues"
+    "url": "https://github.com/rozPierog/rn-android-prompt/issues"
   }
 }
