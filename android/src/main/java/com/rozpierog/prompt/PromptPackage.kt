@@ -12,7 +12,7 @@ class PromptPackage : ReactPackage {
         return listOf(Prompt(reactContext))
     }
 
-    override fun createJSModules(): List<Class<out JavaScriptModule>> = emptyList()
+    fun createJSModules(): List<Class<out JavaScriptModule>> = emptyList()
 
     override fun createViewManagers(
         reactContext: ReactApplicationContext
