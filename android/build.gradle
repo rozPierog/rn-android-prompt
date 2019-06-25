@@ -53,7 +53,7 @@ dependencies {
     ktlint "com.pinterest:ktlint:0.33.0"
     compileOnly "com.facebook.react:react-native:${safeExtGet('reactNativeVersion', '+')}"
     //noinspection GradleCompatible
-    implementation "com.android.support:appcompat-v7:${safeExtGet('supportLibVersion', '28.0.0')}"
+    implementation "${safeExtGet('coreLibName', 'com.android.support:appcompat-v7')}:${safeExtGet('supportLibVersion', '28.0.0')}"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
 
