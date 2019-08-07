@@ -1,6 +1,6 @@
 {
   "name": "rn-android-prompt",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Create simple dev prompt",
   "main": "index.js",
   "repository": {
